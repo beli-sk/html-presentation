@@ -95,25 +95,33 @@ footer .text {
 	font-size: small;
 	margin-bottom: 0.2em;
 }
-
 .content {
 	font-size: x-large;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 2em;
-	width: 80%;
+	padding: 0;
+	width: 90%;
 }
 .content .left {
-	width: 45%;
+	width: 49%;
 	margin: 0;
-	padding: 0;
 	float: left;
 }
 .content .right {
-	width: 45%;
+	width: 49%;
 	margin: 0;
-	padding: 0;
 	float: right;
+}
+.h-padded {
+	box-sizing: border-box;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.v-padded {
+	box-sizing: border-box;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 .text-center {
 	text-align: center;
